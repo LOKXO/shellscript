@@ -1,2 +1,2 @@
-# shellscript
-the only shellscript you EVER need
+#  Shellscript
+simple shell script for cool looking console (linux only obv)
