@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Ask for package manager
 echo "What is your package manager?"
 echo "1. pacman (Arch)"
@@ -25,7 +26,7 @@ case $pm_choice in
         exit 1
         ;;
 esac
-
+starship preset plain-text-symbols -o ~/.config/starship.toml
 # Ask for shell
 echo "What is your shell?"
 echo "1. fish"
